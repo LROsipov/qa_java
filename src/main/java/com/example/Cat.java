@@ -6,11 +6,13 @@ public class Cat {
 
     Predator predator;
 
-    public Cat(Feline feline) {
+    public Cat(Predator feline) {
+
         this.predator = feline;
     }
 
     public String getSound() {
+
         return "Мяу";
     }
 
